@@ -1,9 +1,9 @@
 /*
- *  * This is a simple C program that prints a custo.
- *   * Author: John Maina
+ *  * File: 101-quote.c
+ *   * Auth: john maina
  *    */
 
-#include <unistdio.h>
+#include <unistd.h>
 
 /**
  *  * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
