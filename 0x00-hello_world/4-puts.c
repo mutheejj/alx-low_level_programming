@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+int main(void)
+	/* its void*/
 {
 		puts("\"Programming is like building a multilingual puzzle");
 
