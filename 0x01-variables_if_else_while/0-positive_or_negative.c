@@ -6,11 +6,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more header goes here */
-
 /**
- * main - prints whether the number is positive or negative.
- * return: always 0 (success)
+ * main - Entry point of the program.
+ *
+ * This function prints whether a given number is positive or negative.
+ *
+ * Return: 0 if successful, otherwise an error code.
  */
 int main(void)
 {
