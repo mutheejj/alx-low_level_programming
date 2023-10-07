@@ -4,11 +4,12 @@
  */
 #include <stdio.h>
 /**
- * main - entry point of the program
+ * main - Entry point of the program
  *
- * the program prins alphabets a to z
+ * Description:
+ * this program prints the lowercase alphabet from 'a' to 'z' followed by a newline.
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
