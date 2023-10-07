@@ -7,9 +7,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints if number is positive, zero or negative
- * Return: Always (success)
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  *
+ * Return: Always 0.
  */
 int main(void)
 {
