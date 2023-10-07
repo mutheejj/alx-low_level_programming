@@ -1,15 +1,7 @@
-/**
- * file: 2-print_alphabet.c
- * author: john muthee maina
- */
 #include <stdio.h>
 /**
- * main - Entry point of the program
- *
- * Description:
- * this program prints the lowercase alphabet from 'a' to 'z' followed by a newline.
- *
- * Return: Always 0 (success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
