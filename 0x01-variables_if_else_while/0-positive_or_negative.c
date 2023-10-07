@@ -9,10 +9,7 @@
 /* more header goes here */
 
 /**
- * main - Entry point
- * 
- * the program prints the number and if its positive or negative
- *
+ * main - prints whether the number is positive or negative.
  * return: always 0 (success)
  */
 int main(void)
