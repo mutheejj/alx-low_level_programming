@@ -6,10 +6,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more header goes here */
 
 /**
- * main - Prints a random number and states whether
- *	it is positive, negative, or zero.
+ * main - Entry point
+ * 
  * the program prints the number and if its positive or negative
  *
  * return: always 0 (success)
@@ -20,6 +21,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes here */
 
 	if (n > 0)
 		printf("%d is positive\n", n);
