@@ -8,9 +8,9 @@
 #include <stdio.h>
 
 /**
- * main - prints a random number and states
- * its positive or negative
- * return: always 0.
+ * main - entry point of the program
+ * the program prints the number and if its positive or negative
+ * return: always 0. (success)
  */
 int main(void)
 {
