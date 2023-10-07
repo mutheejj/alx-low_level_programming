@@ -8,8 +8,8 @@
 #include <stdio.h>
 
 /**
- * main - prints a random number and states 
- * 	its positive or negative
+ * main - prints a random number and states
+ * its positive or negative
  * return: always 0.
  */
 int main(void)
