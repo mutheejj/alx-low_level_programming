@@ -7,11 +7,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point of the program.
+ * main - prints if number is positive, zero or negative
+ * Return: Always (success)
  *
- * This function prints whether a given number is positive or negative.
- *
- * Return: 0 if successful, otherwise an error code.
  */
 int main(void)
 {
