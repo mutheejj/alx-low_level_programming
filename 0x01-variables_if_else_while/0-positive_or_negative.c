@@ -9,8 +9,10 @@
 
 /**
  * main - entry point of the program
+ *
  * the program prints the number and if its positive or negative
- * return: always 0. (success)
+ *
+ * return: always 0 (success)
  */
 int main(void)
 {
