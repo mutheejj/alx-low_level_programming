@@ -5,9 +5,14 @@
  */
 int main(void)
 {
-	int hex;
+	int num;
+	char hex;
 
-	for (hex = 'a'; hex < 'f'; hex++)
+	for (num = 0; num < 10; num++)
+	{
+		putchar(num);
+	}
+	for (hex = 'a'; hex < 'g'; hex++)
 	{
 		putchar(hex);
 	}
