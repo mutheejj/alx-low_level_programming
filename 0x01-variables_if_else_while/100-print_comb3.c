@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	int three = "3";
-	int nine = "9";
+	int three = 3;
+	int nine = 9;
 
 	putchar(three + '0');
 	putchar(',');
