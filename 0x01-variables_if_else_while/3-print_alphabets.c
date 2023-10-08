@@ -10,7 +10,8 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
-		for (up = 'A'; up <= 'Z'; up++)
+	}
+	for (up = 'A'; up <= 'Z'; up++)
 		{
 			putchar(up);
 		}
