@@ -6,10 +6,11 @@
 int main(void)
 {
 	char low, up;
+
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
-		for (up = 'A'; up <='Z'; upp++;)
+		for (up = 'A'; up <= 'Z'; upp++;)
 		{
 			putchar(up);
 		}
