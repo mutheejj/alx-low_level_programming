@@ -17,7 +17,7 @@ int main(void)
 				{
 					putchar((one % 10) + '0');
 					putchar(two % 10) + '0');
-					putchar(three % 10 + '0');
+					putchar(three % 10) + '0');
 
 					if (!(one == 7 && two == 8 && three == 9))
 					{
