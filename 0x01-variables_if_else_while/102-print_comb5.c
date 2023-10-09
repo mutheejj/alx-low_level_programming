@@ -7,18 +7,20 @@ int main(void)
 {
 	int num, nom1;
 
-	for (nom1 = num + 1; num <= 98; num++)
+	for (num = 0; num <= 98; num++)
 	{
-		putchar((num / 10) + '0');
-		putchar((num % 10) + '0');
-		putchar(' ');
-		putchar((nom1 / 10) + '0');
-		putchar((nom1 % 10) + '0');
-
-		if (num == 98 && nom1 == 99)
+		for (nom1 = num + 1; nom1 <= 98; num++)
 		{
-			putchar(',');
+			putchar((num / 10) + '0');
+			putchar((num % 10) + '0');
 			putchar(' ');
+			putchar((nom1 / 10) + '0');
+			putchar((nom1 % 10) + '0');
+			if (num == 98 && nom1 == 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
