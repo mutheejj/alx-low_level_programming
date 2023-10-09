@@ -19,11 +19,11 @@ int main(void)
 					putchar(two + '0');
 					putchar(three + '0');
 
-					if (!(one == 7 && two == 8 && three == 9)
-							{
-							putchar(',');
-							putchr(' ');
-							}
+					if (!(one == 7 && two == 8 && three == 9))
+					{
+						putchar(',');
+						putchr(' ');
+					}
 				}
 			}
 		}
