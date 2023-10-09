@@ -15,10 +15,10 @@ int main(void)
 			putchar((nom % 10) + '0');
 
 			if (num == 5 && nom == 6)
-			{
+				continue;
+
 				putchar(',');
 				putchar(' ');
-			}
 		}
 	}
 	putchar('\n');
