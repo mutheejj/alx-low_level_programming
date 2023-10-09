@@ -9,9 +9,9 @@ int main(void)
 
 	for (one = 0; one < 9; one++)
 	{
-		for (two = 0; two < 9; two++)
+		for (two = one + 1; two < 9; two++)
 		{
-			for (three = 0; three < 9; three++)
+			for (three = two + 1; three < 9; three++)
 			{
 				if (one < two && two < three)
 				{
