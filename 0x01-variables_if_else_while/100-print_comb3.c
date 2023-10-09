@@ -14,7 +14,7 @@ int main(void)
 			putchar((num % 10) + '0');
 			putchar((nom % 10) + '0');
 
-			if (num == 8 && nom == 9)
+			if (!(num == 8 && nom == 9))
 			{
 				putchar(',');
 				putchar(' ');
