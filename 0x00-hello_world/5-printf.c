@@ -1,13 +1,7 @@
-/**
- * this is comments for this document
- * too long
- * ok
- */
 #include <stdio.h>
 /**
- * this is comments for this document
- * done
- * done again
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 /**
