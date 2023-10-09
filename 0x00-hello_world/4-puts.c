@@ -1,16 +1,8 @@
-/*
- *  * file of john
- *   * done and tired
- *    */
-
 #include <stdio.h>
-
 /**
- *  * okay
- *   *                new line
- *    *
- *     * Always 0 at the end
- *      */
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 		puts("\"Programming is like building a multilingual puzzle");
