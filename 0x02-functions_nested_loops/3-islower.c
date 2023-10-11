@@ -5,7 +5,6 @@
  */
 int _islower(int c)
 {
-	char letter;
 	int n;
 
 	if (c >= 'a' && c <= 'z')
@@ -15,5 +14,6 @@ int _islower(int c)
 	else
 	{
 		return (0);
+	}
 }
 
