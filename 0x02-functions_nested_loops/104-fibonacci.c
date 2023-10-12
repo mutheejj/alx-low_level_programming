@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	int first = 1, second = 2, next, n;
+	int first = 1, second = 2, next, ;
 	
 	printf("%d, %d, ", first, second);
 	
-	for (int i = 0; i < 98; i++)
+	for (int i = 0; i <= 98; i++)
 	{
 		next = first + second;
 		printf("%d", next);
-		if (i < 97)
+		if (i <= 98)
 		{
 			printf(", ");
 		}
