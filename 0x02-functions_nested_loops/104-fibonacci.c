@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int first = 1, second = 2, next, ;
+	int first = 1, second = 2, next, i;
 	
 	printf("%d, %d, ", first, second);
 	
-	for (int i = 0; i <= 98; i++)
+	for (i = 0; i <= 98; i++)
 	{
 		next = first + second;
 		printf("%d", next);
