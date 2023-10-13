@@ -6,7 +6,7 @@
 int main(void)
 {
 	int num;
-	char fizz = "Fizz", buzz = "Buzz";
+	char fizz[]= "Fizz", buzz [] = "Buzz";
 	
 	for (num = 1; num <= 100; num++)
 	{
