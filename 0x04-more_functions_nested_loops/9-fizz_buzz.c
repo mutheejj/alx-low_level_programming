@@ -6,22 +6,20 @@
 int main(void)
 {
 	int num;
-	char fizz[]= "Fizz";
-	char buzz [] = "Buzz";
 	
 	for (num = 1; num <= 100; num++)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 		{
-			printf("%s ", fizz);
+			printf("FizzBuzz ");
 		}
 		else if (num % 3 == 0)
 		{
-			printf("%s ", buzz);
+			printf("Fizz ");
 		}
 		else if (num % 5 == 0)
 		{
-			printf("%s%s ", fizz, buzz);
+			printf("Buzz ");
 		else
 		{
 			printf("%d ", num);
