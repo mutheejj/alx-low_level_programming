@@ -21,6 +21,7 @@ int mul(int a, int b)
 			lst = mult % 10;
 			putchar(lst + '0');
 			mult /=10;
+		}
 	}
 	return (0);
 }
