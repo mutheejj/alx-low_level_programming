@@ -6,14 +6,20 @@
  */
 void print_square(int size)
 {
-	int square, line;
-
-	for (line = 0; line < size; i++)
+	int line, hash;
+	
+	if (size < 0)
 	{
-		for (square = 0; square < size; square++)
+		for (line = 0; line < size; line++)
 		{
-			_putchar('#');
+			for (hash = 0; hash < size; hash++)
+			{
+				_putchar('#')
+			}
+			if (line == size - 1)
+				continue;
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
