@@ -8,13 +8,13 @@ void print_square(int size)
 {
 	int line, hash;
 	
-	if (size < 0)
+	if (size <= 0)
 	{
 		for (line = 0; line < size; line++)
 		{
 			for (hash = 0; hash < size; hash++)
 			{
-				_putchar('#')
+				_putchar('#');
 			}
 			if (line == size - 1)
 				continue;
