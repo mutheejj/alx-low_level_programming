@@ -23,9 +23,9 @@ int main(void)
 		}
 		else
 		{
-			if (num > 100)
+			printf("%d", num);
+			if (num < 100)
 			{
-				printf("%d", num);
 				printf(" ");
 			}
 		}
