@@ -17,6 +17,7 @@ int mul(int a, int b)
 	else if (mult < 0)
 	{
 		_putchar('-');
+		mult = -mult;
 	}
 	else
 	{
