@@ -13,7 +13,7 @@ void print_diagonal(int n)
 	{
 		for (i = 0; i < n;  i++)
 		{
-			for (line = 0; line > i; line++)
+			for (line = 0; line < i; line++)
 			{
 				_putchar(' ');
 			}
@@ -21,6 +21,7 @@ void print_diagonal(int n)
 			if (i == n-1)
 				continue;
 			_putchar('\n');
+		}
 	}
 	return (0);
 }
