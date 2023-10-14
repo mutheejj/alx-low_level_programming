@@ -14,6 +14,10 @@ int mul(int a, int b)
 	{
 		_putchar('0');
 	}
+	else if (mult < 0)
+	{
+		_putchar('-');
+	}
 	else
 	{
 		while (mult > 0)
