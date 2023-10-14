@@ -7,7 +7,7 @@
 void print_square(int size)
 {
 	int line, hash;
-	
+
 	if (size > 0)
 	{
 		for (line = 0; line < size; line++)
