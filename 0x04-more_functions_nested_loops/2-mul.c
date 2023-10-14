@@ -16,8 +16,11 @@ int mul(int a, int b)
 	}
 	else
 	{
-		lst = mult % 10;
-		_putchar(lst + '0');
+		while (mult > 0)
+		{
+			lst = mult % 10;
+			putchar(lst + '0');
+			mult /=10;
 	}
 	return (0);
 }
