@@ -7,9 +7,17 @@
  */
 int mul(int a, int b)
 {
-	int mult;
+	int mult, lst;
 
 	mult = a * b;
-	_putchar(mult + '0');
+	if (mult == 0)
+	{
+		_putchar('0');
+	}
+	else
+	{
+		lst = mult % 10;
+		_putchar(lst + '0');
+	}
 	return (0);
 }
