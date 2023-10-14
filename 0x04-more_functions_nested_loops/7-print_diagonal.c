@@ -1,15 +1,17 @@
 #include "main.h"
+
 /**
  * print_diagonal - Entry point
  * @n: The number of \ characters to be printed.
  */
+
 void print_diagonal(int n)
 {
 	int i, line;
 	
 	for (i = 0; i < n;  i++)
 	{
-		for (line = 0; line < i; line++)
+		for (line = 0; line > i; line++)
 		{
 			_putchar(' ');
 		}
