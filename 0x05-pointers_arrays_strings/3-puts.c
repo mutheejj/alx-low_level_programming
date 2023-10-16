@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts.c - puts a cahr
+ * _puts - puts a cahr
  * @str: to be put
  */
 void _puts(char *str)
