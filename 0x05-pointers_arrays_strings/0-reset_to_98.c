@@ -1,17 +1,11 @@
 #include "main.h"
 /**
  * reset_to_98 - resetes the int to 98
+ * @n: number to be checked
  * Return: Always 0 (Success)
  */
 void reset_to_98(int *n)
 {
-	int a = 98;
-	
-	_putchar('n');
-	_putchar('=');
-	_putchar(n + '0');
-	_putchar('\n');
-	_putchar('n');
-	_putchar('=');
-       	_putchar(&a);
+	*n = 98;
 }
+
