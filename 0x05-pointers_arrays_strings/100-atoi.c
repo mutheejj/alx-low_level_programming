@@ -15,7 +15,7 @@ int _atoi(char *s)
 		sn = -1;
 		i++;
 	}
-	else
+	else if (s[i] == '+')
 	{
 		i++;
 	}
