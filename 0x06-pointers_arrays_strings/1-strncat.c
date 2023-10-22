@@ -3,7 +3,7 @@
  * _strncat - copies or concentates two strings
  * @dest: l
  * @src: l
- * @n: to be cheched 
+ * @n: to be cheched
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
@@ -21,6 +21,6 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	dest[i] = '\n';
+	dest[i] = '\0';
 	return (dest);
 }
