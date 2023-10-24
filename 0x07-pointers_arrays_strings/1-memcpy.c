@@ -4,7 +4,7 @@
  * @dest: to be copied the memory
  * @src: to copy the memory
  * @n: to be cheked
- * Returns: pointer to dest
+ * Return: pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
