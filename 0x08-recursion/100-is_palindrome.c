@@ -13,10 +13,5 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	if (s[0] == s[i - 1])
-	{
-		s[i - 1] = '\0';
-		return (is_palindrome(s + 1));
-	}
-	return (0);
+	return (1);
 }
