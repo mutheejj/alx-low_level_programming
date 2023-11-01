@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 /**
  * str_concat - str_concat
  * @s1: is a string
@@ -8,14 +9,28 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int n;
+	char *new;
+	int i, j;
+	int total;
 
-	new = malloc (n * sizeof (*s1 + *s2);
-
+	if (s1 == NULL)
+	{
+		s1 = "";
+	}
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
+	i = strlen(s1);
+	j = strlen(s2);
+	total = i + j + 1;
+	new = (char *)malloc( total * sizeof(char));
 	if (new == NULL)
 	{
 		return (NULL);
 	}
-	retrun (new);
-}
 
+	strcpy(new, s1);
+	strcat(new, s2);
+	return (new);
+}
