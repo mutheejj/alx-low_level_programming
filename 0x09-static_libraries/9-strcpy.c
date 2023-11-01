@@ -3,9 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
-void _puts(char *s)
+char *_strcpy(char *dest, char *src)
 {
-	    puts(s);
+	    return strcpy(dest, src);
 }
 

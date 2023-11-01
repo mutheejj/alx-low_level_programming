@@ -1,5 +1,11 @@
 #include "main.h"
-int _strcmp(char *s1, char *s2)
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+char *_strncpy(char *dest, char *src, int n)
 {
-	return (char);
+	    return strncpy(dest, src, n);
 }
+

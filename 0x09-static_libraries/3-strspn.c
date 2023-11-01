@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+unsigned int _strspn(char *s, char *accept)
 {
-	    puts(s);
+	    return strspn(s, accept);
 }
 

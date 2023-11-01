@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+int _isalpha(int c)
 {
-	    puts(s);
+	    return isalpha(c);
 }
 

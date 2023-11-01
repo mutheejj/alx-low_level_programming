@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+int _strcmp(char *s1, char *s2)
 {
-	    puts(s);
+	    return strcmp(s1, s2);
 }
 

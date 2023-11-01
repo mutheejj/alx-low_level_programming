@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+char *_strpbrk(char *s, char *accept)
 {
-	    puts(s);
+	    return strpbrk(s, accept);
 }
 
