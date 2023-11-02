@@ -3,6 +3,8 @@
 #include <stdlib.h>
 /**
  * main - start of the program
+ * @argc: is a integer
+ * @argv: is a string
  * Return: 0
  */
 
