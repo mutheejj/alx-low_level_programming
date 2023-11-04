@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		n = argc - 1;
 	}
-	if (n == 0)
+	if (n == 0 || n == 1 )
 	{
 		printf("Error\n");
 	}
