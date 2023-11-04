@@ -3,8 +3,8 @@
 /**
  * main - start of the program
  * @argv: is a string
- * @argvc: is an integer
- * return: 0
+ * @argc: is an integer
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
