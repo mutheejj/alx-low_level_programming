@@ -13,13 +13,15 @@ int main(int argc, char *argv[])
 	}
 	if (n == 0)
 	{
-		printf("Error");
+		printf("Error\n");
 	}
-	for (i = 1; i < argc; i++)
+	if (n > 1)
 	{
-		mult *= atoi(argv[i]);
-		
+		for (i = 1; i < argc; i++)
+		{
+			mult *= atoi(argv[i]);
+		}
+		printf("%d\n", mult);
 	}
-	printf("%d\n", mult);
 	return (0);
 }
