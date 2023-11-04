@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+/**
+ * main - is where the progrm starts
+ * @argv: is a string
+ * @argc: is an integer
+ * Return: 0
+ */
 int main(int argc, char *argv[])
 {
 	int i = 0;
 	int mult = 1;
 	int n;
-	
+
 	for (i = 0; i < argc; i++)
 	{
 		n = argc - 1;
