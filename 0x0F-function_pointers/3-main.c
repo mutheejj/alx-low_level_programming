@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - is the start of the program
- * argc: is an iteger
+ * @argc: is an iteger
  * @argv: is a string
  * Return: 0
  */

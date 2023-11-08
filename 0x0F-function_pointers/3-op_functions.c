@@ -5,17 +5,17 @@
  * op_add - is afunction
  * @a: is an integer
  * @b: is an integer
- * Return - remender
+ * Return: remender
  */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 /**
- * int op_sub - is a function
+ * op_sub - is a function
  * @a: is an integer
  * @b: is an iteger
- * Return - digffrence
+ * Return: digffrence
  */
 int op_sub(int a, int b)
 {
@@ -25,7 +25,7 @@ int op_sub(int a, int b)
  * op_mul - is a function
  * @a: is an iteger
  * @b: is an integer
- * Return - mult
+ * Return: mult
  */
 int op_mul(int a, int b)
 {
@@ -35,7 +35,7 @@ int op_mul(int a, int b)
  * op_div - is for division
  * @a: is an iteger
  * @b: is an iteger
- * Return - mult
+ * Return: mult
  */
 int op_div(int a, int b)
 {
@@ -50,7 +50,7 @@ int op_div(int a, int b)
  * op_mod - is a function
  * @a: is an iteger
  * @b: is an iteger
- * Return - mod
+ * Return: mod
  */
 int op_mod(int a, int b)
 {
