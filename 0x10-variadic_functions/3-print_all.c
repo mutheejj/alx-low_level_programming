@@ -4,44 +4,78 @@
 #include <string.h>
 #include "variadic_functions.h"
 /**
- * print_all - a function
- * @format: is a format
+ * print_char - pointer to char
+ * @ap: pointer
+ */
+void print_char(va_list ap)
+{
+	printf("%c", va_arg(ap, int));
+}
+/**
+ * print_integer - Prints an integer
+ * @ap: Argument pointer
+ */
+void print_integer(va_list ap)
+{
+	printf("%d", va_arg(ap, int));
+}
+/**
+ * print_float - Prints a float
+ * @ap: Argument pointer
+ */
+void print_float(va_list ap)
+{
+	printf("%f", va_arg(ap, double));
+}
+/**
+ * print_string - Prints a string
+ * @ap: Argument pointer
+ */
+void print_string(va_list ap)
+{
+	char *s = va_arg(ap, char *);
+
+	if (!s)
+	{
+		printf("(nil)");
+		return;
+	}
+	printf("%s", s);
+}
+/**
+ * print_all - Prints anything
+ * @format: Types of arguments passed to function
  */
 void print_all(const char * const format, ...)
 {
-	va_list all;
-	va_start(all, format);
+	print_type types[] = {
+		{"c", print_char},
+		{"i", print_integer},
+		{"f", print_float},
+		{"s", print_string},
+		{NULL, NULL}
+	};
+	va_list ap;
+	char *separator = "";
+	int i = 0;
+	int j = 0;
 
-	while (*format != '\0')
+	va_start(ap, format);
+	while (format && format[i])
 	{
-		if (*format == 'c')
+		while (types[j].type)
 		{
-			int c = va_arg(all, int);
-			printf("%c", c);
-		}
-		else if (*format == 'i')
-		{
-			int i = va_arg(all, int);
-			printf("%d", i);
-		}
-		else if (*format == 'f')
-		{
-			double f = va_arg(all, double);
-			printf("%f", f);
-		}
-		else if (*format == 's')
-		{
-			char *s = va_arg(all, char*);
-			if (s == NULL)
+			if (*types[j].type == format[i])
 			{
-				printf("(nil)");
+				printf("%s", separator);
+				types[j].f(ap);
+				separator = ", ";
 			}
-			else
-			{
-				printf("%s", s);
-			}
+			++j;
 		}
+		j = 0;
+		++i;
 	}
-	va_end(all);
 	printf("\n");
+	va_end(ap);
 }
