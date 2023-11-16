@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 void first(void);
+/**
+ * first - a function
+ */
 void first(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
