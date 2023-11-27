@@ -3,6 +3,7 @@
  * read_textfile - is a function
  * @filename: is the filename
  * @letters: is the lettres
+ * Return: sih
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
