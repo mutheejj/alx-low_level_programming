@@ -1,19 +1,32 @@
 #include "main.h"
+#include <stdio.h>
 
-char *rot13(char *str)
+/**
+  * rot13 - ...
+  * @s: ...
+  *
+  * Return: ...
+  */
+char *rot13(char *s)
 {
-    char *ptr = str;
+	int a = 0;
 
-    while (*ptr != '\0') {
-        if ((*ptr >= 'a' && *ptr <= 'z') || (*ptr >= 'A' && *ptr <= 'Z')) {
-            if ((*ptr >= 'a' && *ptr <= 'm') || (*ptr >= 'A' && *ptr <= 'M')) {
-                *ptr += 13;
-            } else {
-                *ptr -= 13;
-            }
-        }
-        ptr++;
-    }
+	while (s[a])
+	{
+		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'))
+		{
+			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
+			{
+				s[a] -= 13;
+				break;
+			}
 
-    return str;
+			s[a] += 13;
+			break;
+		}
+
+		a++;
+	}
+
+	return (s);
 }
