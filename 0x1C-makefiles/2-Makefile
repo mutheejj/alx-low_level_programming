@@ -1,8 +1,8 @@
 CC = gcc
 SRC = main.c school.c
-OBJECT = $(SRC:.c = .o)
+OBJ = $(SRC:.c = .o)
 
 NAME = school
 
 all:  ${OBJ}
-	${CC} ${OBJECT} -o ${NAME}
+	${CC} ${OBJ} -o ${NAME}
