@@ -1,1 +1,1 @@
-this is a readme file
+# Hash Table Implementation in C
